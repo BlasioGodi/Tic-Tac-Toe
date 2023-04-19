@@ -8,7 +8,7 @@
   --footer-font-family: "Playfair Display", serif;
   --text-color-red: red;
   --text-color-blue: #1da1f2;
-  --theme-color: rgb(255, 115, 0);
+  --theme-color: #2a3658;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -78,10 +78,26 @@ label {
   grid-template-columns: 1fr 5fr 1fr;
 }
 
+.bg-theme {
+  background: linear-gradient(-45deg, darkslategrey, #38a2d7, #2a3658, black);
+  background-size: 400% 400%;
+  animation: color 12s ease-in-out infinite alternate;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  0% {
+    background-position: 0 50%;
+  }
+}
 .table-container {
   width: auto;
   height: 100%;
-  background-color: #020044;
 }
 /* Page Loader Bar*/
 .loader {
@@ -145,6 +161,7 @@ label {
 /* Navigation Bar*/
 .navbar {
   font-family: var(--bs-title-font-family);
+  background-image: linear-gradient(45deg, darkslategrey, #2a3658, black);
 }
 
 .navbar-brand {
