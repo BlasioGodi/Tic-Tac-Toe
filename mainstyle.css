@@ -30,6 +30,7 @@
   background-color: var(--theme-color);
   color: #fff;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -63,7 +64,7 @@ label {
 }
 /* Main */
 #main {
-  min-height: 85vh;
+  min-height: 83.5vh;
   font-family: var(--body-font-family);
 }
 /* Footer */
@@ -74,10 +75,14 @@ label {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 0.4fr 5fr 0.4fr;
-  gap: 1rem;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
+.table-container {
+  width: auto;
+  height: 100%;
+  background-color: #020044;
+}
 /* Page Loader Bar*/
 .loader {
   position: fixed;
