@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BlasioGodi/Tic-Tac-Toe#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0"
   }
 }
