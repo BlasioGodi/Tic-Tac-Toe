@@ -63,13 +63,19 @@ label {
 }
 /* Main */
 #main {
-  min-height: 90vh;
+  min-height: 85vh;
   font-family: var(--body-font-family);
 }
 /* Footer */
 #footer {
   min-height: 10vh;
   font-family: var(--footer-font-family);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.4fr 5fr 0.4fr;
+  gap: 1rem;
 }
 
 /* Page Loader Bar*/
