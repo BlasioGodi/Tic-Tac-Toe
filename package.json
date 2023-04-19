@@ -1,0 +1,22 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Odin Project Coursework",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlasioGodi/Tic-Tac-Toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlasioGodi/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/BlasioGodi/Tic-Tac-Toe#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
