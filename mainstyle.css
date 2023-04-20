@@ -99,6 +99,12 @@ label {
   width: auto;
   height: 100%;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Page Loader Bar*/
 .loader {
   position: fixed;
