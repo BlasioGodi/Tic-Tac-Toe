@@ -1,6 +1,6 @@
-@import url("/node_modules/font-awesome/css/font-awesome.css");
+@import url("node_modules/font-awesome/css/font-awesome.css");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Playfair+Display:ital@0;1&display=swap");
-@import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
+@import url("node_modules/bootstrap-icons/font/bootstrap-icons.css");
 
 :root {
   --bs-title-font-family: "Alkatra", cursive;
