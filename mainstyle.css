@@ -127,8 +127,9 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f9fb;
+  background-color: #90c3f7;
   transition: opacity 0.75s, visibility 0.75s;
+  z-index: 9999;
 }
 .loader img {
   position: absolute;
@@ -141,10 +142,10 @@ label {
 }
 .loader::before {
   content: "";
-  width: 130px;
-  height: 130px;
-  border: 5px solid #dddddd;
-  border-top-color: gold;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #dddddd;
+  border-top-color: #2a3658;
   border-radius: 50%;
   animation: loading 2s linear infinite;
 }
@@ -152,27 +153,27 @@ label {
 @keyframes loading {
   0% {
     transform: rotate(0deg);
-    border-top-color: gold;
+    border-top-color: #2a3658;
   }
 
   25% {
     transform: rotate(90deg);
-    border-top-color: gold;
+    border-top-color: #2a3658;
   }
 
   50% {
     transform: rotate(180deg);
-    border-top-color: red;
+    border-top-color: black;
   }
 
   75% {
     transform: rotate(270deg);
-    border-top-color: green;
+    border-top-color: darkslategrey;
   }
 
   100% {
     transform: rotate(360deg);
-    border-top-color: gold;
+    border-top-color: #2a3658;
   }
 }
 

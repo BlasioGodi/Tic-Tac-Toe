@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 //Loader
 window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
@@ -8,3 +8,4 @@ window.addEventListener("load", () => {
         document.body.removeChild("loader");
     })
 });
+
