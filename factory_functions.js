@@ -8,7 +8,7 @@ Sport.prototype.sayHello = function () {
     console.log(`${this.playername} says Hello!`);
 }
 
-const blasio = new Sport("Blaise", "5million bob");
+const blasio = new Sport("Blasio", "5million bob");
 
 blasio.sayHello();
 
@@ -23,3 +23,19 @@ const Sports = (playernames, netvalue) => {
 const blaise = Sports("Blaise", "50million");
 
 blaise.sayHi();
+
+//Private Variable and functions using closure
+const PublicTransport = (buses, matatus) => {
+    const license = () => {
+        console.log(`The licenses for ${buses} are many.`);
+    }
+    const colors = () => {
+        console.log(`The colors for ${matatus} are many.`);
+    }
+    return { buses, matatus, license, colors };
+}
+
+const schoolBoys = PublicTransport("Kenya Bus", "Umoina Sacco");
+
+schoolBoys.license();
+schoolBoys.colors();
